@@ -11,7 +11,6 @@ function fib(n) {
 console.log(fib(n = 1000));
 
 
-console.log('Hola');
 //Version con while-loop
 function fibw(n) {
     let a = 0;
@@ -25,7 +24,6 @@ function fibw(n) {
 }
 console.log(fibw(n = 1000));
 
-console.log('hOLA ');
 //Version arrow function
 fibonacci = (n => {
     let a = 0;
