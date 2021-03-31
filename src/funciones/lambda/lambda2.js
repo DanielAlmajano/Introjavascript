@@ -1,0 +1,23 @@
+function suma_n(n) {
+    let suma = 0;
+    let con = 1;
+    while (con <= n) {
+        suma = suma + con;
+        con++;
+    }
+    console.log(suma);
+}
+console.log(suma_n(100));
+
+
+//Arrow
+suma_num = (n => {
+    let suma = 0;
+    let con = 1;
+    while (con <= n) {
+        suma = suma + con;
+        con++;
+    }
+    console.log(suma);
+});
+console.log(suma_num(100));
