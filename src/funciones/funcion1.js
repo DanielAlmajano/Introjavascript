@@ -2,8 +2,7 @@
 function double(n, f) {
     return f(n);
 }
-fun = (n => 2 * n);
-console.log(double(10, fun));
+console.log(double(10, (n) => 2 * n));
 
 
 
